@@ -1,0 +1,10 @@
+{
+  "GLOBAL": {
+    "baseUrl": "/send"
+  },
+  "/": {
+    "POST": {
+      "route": "createFile"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "name":"watchDir",
+  "main" : "./lib/main.js"
+}

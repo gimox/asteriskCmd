@@ -1,0 +1,16 @@
+Channel:local/6@outgoing/n
+MaxRetries:9999
+RetryTime:15
+WaitTime:14
+Set:CIDDest=6
+Set:Id=2
+Set:Url=http://www.ciccio.com
+Set:urgente=0
+Set:Token=343434343343
+Set:testo=ciao
+Set:task=1
+Context:outgoing
+Extension:653
+Priority:1
+Archive:23
+Status: Completed

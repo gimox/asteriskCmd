@@ -1,0 +1,14 @@
+{
+  "port": 3000,
+  "tmpDir": "./test/received",
+  "outgoingDir":"./test/outgoing",
+  "outgoingdoneDir":"./test/outgoing_done",
+  "line":2,
+  "path": {
+    "routesPath": "./routes",
+    "controllersPath": "./api/controllers",
+    "policyPath": "./api/policy",
+    "modelsPath": "./api/models",
+    "cors": true
+  }
+}
