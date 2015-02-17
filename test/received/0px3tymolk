@@ -3,14 +3,14 @@ MaxRetries:9999
 RetryTime:15
 WaitTime:14
 Set:CIDDest=6
-Set:Id=undefined
-Set:Url=undefined
+Set:id=2
+Set:url=http://localhost:4567/api/call
 Set:urgente=0
-Set:urgente=0
-Set:Token=undefined
+Set:token=343434343343
 Set:testo=ciao
 Set:task=1
 Context:outgoing
 Extension:653
 Priority:1
 Archive:23
+Status: Completed

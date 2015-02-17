@@ -18,12 +18,12 @@ function generateContentFile(params) {
     stream += 'RetryTime:' + params.retryTime + '\n';
     stream += 'WaitTime:' + params.waitTime + '\n';
     stream += 'Set:CIDDest=' + params.to + '\n';
-    stream += 'Set:Id=' + params.id + '\n';
-    stream += 'Set:Url=' + params.url + '\n';
-    stream += 'Set:Urgente=' + params.urgente + '\n';
-    stream += 'Set:Token=' + params.token + '\n';
-    stream += 'Set:Testo=' + params.message + '\n';
-    stream += 'Set:Task=' + params.task + '\n';
+    stream += 'Set:id=' + params.id + '\n';
+    stream += 'Set:url=' + params.url + '\n';
+    stream += 'Set:urgente=' + params.urgente + '\n';
+    stream += 'Set:token=' + params.token + '\n';
+    stream += 'Set:testo=' + params.message + '\n';
+    stream += 'Set:task=' + params.task + '\n';
     stream += 'Context:' + params.context + '\n';
     stream += 'Extension:' + params.extension + '\n';
     stream += 'Priority:' + params.priority + '\n';
