@@ -1,9 +1,10 @@
 {
   "port": 3000,
-  "tmpDir": "./test/received",
+  "tmpDir": "./received",
   "outgoingDir":"./test/outgoing",
   "outgoingdoneDir":"./test/outgoing_done",
-  "line":2,
+  "line":1,
+  "token":"456rtghtyvdeERmBT23",
   "path": {
     "routesPath": "./routes",
     "controllersPath": "./api/controllers",

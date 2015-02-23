@@ -43,6 +43,8 @@ function createFile(req, res) {
         , file = require('./../models/call.js').get()
         , errors = file.validate(req.body);
 
+    if (req.body.token != config.get('token')) return res.status(403);
+
     if (errors.length) return res.json({'status': 101, message: errors});
 
     var fileContent = generateContentFile(req.body)
@@ -52,13 +54,9 @@ function createFile(req, res) {
 
     fs.writeFile(path.join(dir, namefile), fileContent, function (err) {
 
-        if (err) {
-            return res.json({'status': 101, message: errors});
-        } else {
+        if (err) return res.json({'status': 101, message: errors});
 
-            return res.json({'status': 11, 'message': 'saved'});
-        }
-
+        return res.json({'status': 11, 'message': 'saved'});
     });
 
 }
