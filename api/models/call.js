@@ -24,6 +24,14 @@ exports.get = function () {
             type: 'string',
             required: true
         },
+        id: {
+            type: 'number',
+            required: true
+        },
+        url: {
+            type: 'string',
+            required: true
+        },
         priority: {
             type: 'number'
         },
@@ -39,15 +47,14 @@ exports.get = function () {
         'archive': {
             type: 'string'
         },
-        url: {
-            type: 'string'
-        },
         token: {
             type: 'string'
         },
         urgente: {
             type: 'string'
         }
+
+
 
     });
 

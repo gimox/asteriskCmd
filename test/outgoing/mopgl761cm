@@ -1,0 +1,15 @@
+Channel:local/3409252721@outogoingUm/n
+MaxRetries:9999
+RetryTime:15
+WaitTime:15
+Set:CIDDest=3409252721
+Set:id=undefined
+Set:url=undefined
+Set:urgente=0
+Set:token=undefined
+Set:testo=ciao
+Set:task=1
+Context:outogoingUm
+Extension:653
+Priority:1
+Archive:Yes
