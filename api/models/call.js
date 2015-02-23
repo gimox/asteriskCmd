@@ -25,7 +25,7 @@ exports.get = function () {
             required: true
         },
         id: {
-            type: 'number',
+            type: 'string',
             required: true
         },
         url: {

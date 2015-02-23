@@ -3,10 +3,10 @@ exports.createFile = createFile;
 
 function generateContentFile(params) {
 
-    if (!params.priority) params.priority = 1;
-    if (!params.maxRetries) params.maxRetries = 9999;
-    if (!params.retryTime) params.retryTime = 15;
-    if (!params.waitTime) params.waitTime = 15;
+    if (!params.priority) params.priority = 1; //
+    if (!params.maxRetries) params.maxRetries = 3; // call retry
+    if (!params.retryTime) params.retryTime = 15; // fail time
+    if (!params.waitTime) params.waitTime = 15; // rings time
     if (!params.archive) params.archive = 'Yes';
     if (!params.urgente) params.urgente = 0;
 
