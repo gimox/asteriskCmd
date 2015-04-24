@@ -56,7 +56,7 @@ function createFile(req, res) {
 
         if (err) return res.json({'status': 101, message: errors});
 
-        return res.json({'status': 11, 'message': 'saved'});
+        return res.json({'status': 10, 'message': 'saved'});
     });
 
 }

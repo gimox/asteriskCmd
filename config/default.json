@@ -1,8 +1,8 @@
 {
   "port": 3000,
   "tmpDir": "./received",
-  "outgoingDir":"./test/outgoing",
-  "outgoingdoneDir":"./test/outgoing_done",
+  "outgoingDir":"/var/spool/asterisk/outgoing",
+  "outgoingdoneDir":"/var/spool/asterisk/outgoing_done",
   "line":1,
   "token":"456rtghtyvdeERmBT23",
   "path": {
