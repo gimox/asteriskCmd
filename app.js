@@ -6,13 +6,14 @@ var app = express();
 var config = require("config");
 var routing = require('json-routing'); // set routing
 var errors = require('./lib/errors'); // mange http errors 404,500
-var watch = require('./lib/watchDir')(app);
+var watch = require('./lib/watchDir')(app,config);
 
 
 // SET
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.set('config',config);
+
 
 //USE
 app.use(require('morgan')("combined",{"stream": logger.stream }));
