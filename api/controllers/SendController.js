@@ -54,11 +54,9 @@ function createFile(req, res) {
 
     fs.writeFile(path.join(dir, namefile), fileContent, function (err) {
 
-        if (err) return res.json({'status': 101, message: errors});
+        if (err)  return res.json({'status': 101, message: errors});
 
         return res.json({'status': 10, 'message': 'saved'});
     });
 
 }
-
-
