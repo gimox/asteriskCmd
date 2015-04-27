@@ -18,7 +18,7 @@ function generateContentFile(params) {
     stream += 'RetryTime:' + params.retryTime + '\n';
     stream += 'WaitTime:' + params.waitTime + '\n';
     stream += 'Set:CIDDest=' + params.to + '\n';
-    stream += 'Set:id=' + params.id + '\n';
+    stream += 'Set:uid=' + params.uid + '\n';
     stream += 'Set:url=' + params.url + '\n';
     stream += 'Set:urgente=' + params.urgente + '\n';
     stream += 'Set:token=' + params.token + '\n';
