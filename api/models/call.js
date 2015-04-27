@@ -25,7 +25,7 @@ exports.get = function () {
             required: true
         },
         uid: {
-            type: 'number',
+            type: 'string',
             required: true
         },
         url: {
