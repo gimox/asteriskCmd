@@ -16,13 +16,11 @@ app.set('config',config);
 
 
 //USE
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(require('morgan')("combined",{"stream": logger.stream }));
 GLOBAL.logger = logger;
 
-
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 //config

@@ -25,7 +25,7 @@ exports.get = function () {
             required: true
         },
         id: {
-            type: 'string',
+            type: 'number',
             required: true
         },
         url: {
@@ -42,7 +42,7 @@ exports.get = function () {
             type: 'number'
         },
         waitTime: {
-            type: 'string'
+            type: 'number'
         },
         'archive': {
             type: 'string'

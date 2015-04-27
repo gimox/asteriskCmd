@@ -43,7 +43,7 @@ function createFile(req, res) {
         , file = require('./../models/call.js').get()
         , errors = file.validate(req.body);
 
-    if (req.body.token != config.get('token')) return res.status(403);
+    if (req.body.token != config.get('token')) return  res.status(403).send('Unauthorized');
 
     if (errors.length) return res.json({'status': 101, message: errors});
 
